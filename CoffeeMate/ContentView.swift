@@ -26,7 +26,7 @@ struct ContentView: View {
                     Image(systemName:"info")
                     Text("Info")
                 }
-            CartPage()
+            OrdersPage()
                 .tabItem {
                     Image(systemName:"cart")
                     Text("Cart")

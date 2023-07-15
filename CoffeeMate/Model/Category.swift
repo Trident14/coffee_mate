@@ -7,8 +7,11 @@
 
 import Foundation
 
-struct Category{
-    var name:String
-    var Products:[Product]
-    
+struct Category: Codable, Identifiable {
+    let name: String
+    let products: [Product]
+    var id:String{
+        return self.name
+    }
 }
+

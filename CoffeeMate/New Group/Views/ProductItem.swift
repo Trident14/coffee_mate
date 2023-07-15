@@ -16,10 +16,10 @@ struct ProductItem: View {
                     .background(Color("AccentColor"))
                 HStack {
                     VStack(alignment: .leading) {
-                        Text("Product Name")
+                        Text(products.name)
                             .font(.title3)
                             .bold()
-                        Text("$ 4.25")
+                        Text("$ \(products.price)")
                             .font(.caption)
                         
                     }.padding(8)

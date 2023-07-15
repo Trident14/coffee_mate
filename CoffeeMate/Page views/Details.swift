@@ -11,7 +11,7 @@ struct Details: View {
     @State var quantity=1
     var body: some View {
         ScrollView {
-            Image("DummyImage")
+            Image("BlackCoffee")
                 .cornerRadius(5)
                 .frame(maxWidth: .infinity, idealHeight: 150, maxHeight: 150)
                 .padding(.top, 32)
