@@ -19,7 +19,7 @@ struct ProductItem: View {
                         Text(products.name)
                             .font(.title3)
                             .bold()
-                        Text("$ \(products.price)")
+                        Text("$ \(products.price,specifier: "%0.2f")")
                             .font(.caption)
                         
                     }.padding(8)
